@@ -1,0 +1,27 @@
+
+> execSync@1.0.2 install D:\Users\john\GitHub\pizza-bot\node_modules\codecov\node_modules\execSync
+> node install.js
+
+[execsync v1.0.2] Attempting to compile native extensions.
+[execSync v1.0.2]
+    Native code compile failed!!
+    Will try to use win32 extension.
+
+> websocket@1.0.24 install D:\Users\john\GitHub\pizza-bot\node_modules\websocket
+> (node-gyp rebuild 2> builderror.log) || (exit 0)
+
+
+D:\Users\john\GitHub\pizza-bot\node_modules\websocket>if not defined npm_config_node_gyp (node "C:\Users\Jmaxwell\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin\\..\..\node_modules\node-gyp\bin\node-gyp.js" rebuild )  else (node "C:\Users\Jmaxwell\AppData\Roaming\npm\node_modules\npm\node_modules\node-gyp\bin\node-gyp.js" rebuild ) 
+
+> phantomjs-prebuilt@2.1.15 install D:\Users\john\GitHub\pizza-bot\node_modules\phantomjs-prebuilt
+> node install.js
+
+PhantomJS not found on PATH
+Download already available at C:\Users\Jmaxwell\AppData\Local\Temp\phantomjs\phantomjs-2.1.1-windows.zip
+Verified checksum of previously downloaded file
+Extracting zip contents
+Removing D:\Users\john\GitHub\pizza-bot\node_modules\phantomjs-prebuilt\lib\phantom
+Copying extracted folder C:\Users\Jmaxwell\AppData\Local\Temp\phantomjs\phantomjs-2.1.1-windows.zip-extract-1518648610134\phantomjs-2.1.1-windows -> D:\Users\john\GitHub\pizza-bot\node_modules\phantomjs-prebuilt\lib\phantom
+Writing location.js file
+Done. Phantomjs binary available at D:\Users\john\GitHub\pizza-bot\node_modules\phantomjs-prebuilt\lib\phantom\bin\phantomjs.exe
+added 526 packages in 50.011s

@@ -1,0 +1,15 @@
+---
+declared-services:
+  pizza-bot-service:
+    label: conversation
+    plan: free
+applications:
+- name: pizza-bot-pete-za
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+  - pizza-bot-service
+  env:
+    NPM_CONFIG_PRODUCTION: false
